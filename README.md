@@ -19,6 +19,14 @@ I used HTML basic framework to delevelop a simple web UI.
 
 Task3 - Back End of web application using Flask 
 
+To DO :
+- build a form to input scoring data 
+- Save the inpute features in an array 
+- load the model pipeline .joblib
+- put the array to model.predict_proba
+- save the prediction values in a variable 
+- return that variable 
+
 https://www.analyticsvidhya.com/blog/2020/09/integrating-machine-learning-into-web-applications-with-flask/
 
 
