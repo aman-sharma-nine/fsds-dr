@@ -2,7 +2,7 @@
     <div class="login">
         <body style="background-color:rgb(254, 235, 235)">
             <h1 style="background-color:Tomato; font-family: verdana;">Flight Delay Classifier</h1>
-            <form action = "{{ url_for('predict_') }}"" method ="POST">
+            <form action = "{{ url_for('predict_') }}" method ="POST">
                 <label style ="color: rgb(0, 0, 0); font-family: verdana;">Flight Date: <input type="date" name="fdate" placeholder="Flight Date"></label><br><br>
                 <label style ="color: rgb(0, 0, 0); font-family: verdana;">DepTime: <input type="date" name="ddate" placeholder="Departure Date"></label><br><br>
                 <label style ="color: rgb(0, 0, 0); font-family: verdana;">UniqueCarrier: <input type="text" name="carrier" placeholder="Carrier"></label><br><br>
@@ -17,4 +17,5 @@
         
         </body>
     </div>
+    <h1 style="background-color:rgb(8, 237, 80); font-family: verdana;">{{prediction_text}}</h1>
 </html>

@@ -7,9 +7,9 @@
 ## Week 3
 
 #### Tasks:
-- Train and validate models and develop a machine learning pipeline for deployment.
-- Build a basic HTML front-end with an input form for independent variables
-- Build a back-end of the web application using a Flask Framework.
+- Train and validate models and develop a machine learning pipeline for deployment. - DONE
+- Build a basic HTML front-end with an input form for independent variables - DONE 
+- Build a back-end of the web application using a Flask Framework. - 
 - Deploy the web app on Heroku. Once deployed, it will become publicly available and can be accessed via  Web URL.
 
 #### Notes:
@@ -20,12 +20,15 @@ I used HTML basic framework to delevelop a simple web UI.
 Task3 - Back End of web application using Flask 
 
 To DO :
-- build a form to input scoring data 
-- Save the inpute features in an array 
-- load the model pipeline .joblib
-- put the array to model.predict_proba
-- save the prediction values in a variable 
-- return that variable 
+- build a form to input scoring data - DONE
+- Save the inpute features in an array  - DONE
+        The most important thing to know about this form is that it performs a POST request to the same route that generated the form. The keys that will be read in the app all come from the name attributes on our form inputs. In this case, language and framework are the names of the inputs, so you will have access to those in the ap
+- load the model pipeline .joblib - DONE
+- put the array to model.predict_proba - DONE
+- save the prediction values in a variable - DONE
+- return that variable - DONE 
+- Change the route to /predict when "Predict" button is pressed 
+- Add functionality to upload a file then run bacth scoring 
 
 https://www.analyticsvidhya.com/blog/2020/09/integrating-machine-learning-into-web-applications-with-flask/
 
