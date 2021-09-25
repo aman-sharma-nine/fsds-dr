@@ -9,7 +9,7 @@
 #### Tasks:
 - Train and validate models and develop a machine learning pipeline for deployment. - DONE
 - Build a basic HTML front-end with an input form for independent variables - DONE 
-- Build a back-end of the web application using a Flask Framework. - 
+- Build a back-end of the web application using a Flask Framework. - DONE
 - Deploy the web app on Heroku. Once deployed, it will become publicly available and can be accessed via  Web URL.
 
 #### Notes:
@@ -27,7 +27,7 @@ To DO :
 - put the array to model.predict_proba - DONE
 - save the prediction values in a variable - DONE
 - return that variable - DONE 
-- Change the route to /predict when "Predict" button is pressed 
+- Change the route to /predict when "Predict" button is pressed - DONE
 - Add functionality to upload a file then run bacth scoring 
 
 https://www.analyticsvidhya.com/blog/2020/09/integrating-machine-learning-into-web-applications-with-flask/
