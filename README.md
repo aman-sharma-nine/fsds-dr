@@ -8,7 +8,7 @@
 - Moving the mode to EC2 instance 
  - Create a new ec2 instance 
  - Launch EC2 instance 
- - SSH into remote server : ssh ubuntu@<ip address>
+ - SSH into remote server : ssh -L localhost:8888:localhost:8888 ubuntu@<your-IP>
  - Transfer your project files to remote host 
   - `mkdir fsds`
   - cd mkdir 
