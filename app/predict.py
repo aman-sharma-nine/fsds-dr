@@ -4,7 +4,11 @@ import pandas as pd
 import joblib 
 import numpy as np
 
-model = joblib.load('/Users/aman.sharma/github/fsds-dr/week1/app/xgboost.joblib')
+
+path_to_model = "{}/xgboost.joblib".format(os.getcwd())
+with open(path_to_model, 'rb') as f:
+        model = joblib.load(f)
+
 cols = ['FlightDate', 'DepTime', 'UniqueCarrier', 'Origin', 'Dest', 'Distance', 'Day_of_Week']
 
 

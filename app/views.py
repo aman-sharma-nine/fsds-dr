@@ -9,8 +9,8 @@ import os
 upload_folder = 'static/files'
 app.config["UPLOAD_FOLDER"] = upload_folder
 
-
-with open(f'/Users/aman.sharma/github/fsds-dr/app/xgboost.joblib', 'rb') as f:
+path_to_model = "{}/xgboost.joblib".format(os.getcwd())
+with open(path_to_model, 'rb') as f:
         model = joblib.load(f)
 
 
