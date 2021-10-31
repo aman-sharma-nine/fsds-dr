@@ -2,7 +2,17 @@
 
 ## Week 1
 
-## Week 2 
+## Moving Pipeline to remote server 
+
+- Create a model and pipeline on the local machine 
+- Moving the mode to EC2 instance 
+ - Create a new ec2 instance 
+ - Launch EC2 instance 
+ - SSH into remote server : ssh ubuntu@<ip address>
+ - Transfer your project files to remote host 
+  - `mkdir fsds`
+  - cd mkdir 
+
 
 ## Week 3
 

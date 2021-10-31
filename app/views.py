@@ -10,7 +10,7 @@ upload_folder = 'static/files'
 app.config["UPLOAD_FOLDER"] = upload_folder
 
 
-with open(f'/Users/aman.sharma/github/fsds-dr/week1/app/xgboost.joblib', 'rb') as f:
+with open(f'/Users/aman.sharma/github/fsds-dr/app/xgboost.joblib', 'rb') as f:
         model = joblib.load(f)
 
 
